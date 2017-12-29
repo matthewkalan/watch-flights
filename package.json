@@ -1,0 +1,14 @@
+{
+  "name": "watch-flights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "watch-flights.js",
+  "scripts": {
+    "test": "start-watching-flights"
+  },
+  "author": "Matt Kalan",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.1"
+  }
+}
