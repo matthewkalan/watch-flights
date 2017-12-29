@@ -16,5 +16,9 @@ mongod --replSet "rs0" --dbpath=/data
 
 More details on: [running MongoDB in a replica set](https://docs.mongodb.com/manual/tutorial/deploy-replica-set/)
 
-It uses a few example documents in the dump directory, which you can import with <mongo-install-dir>/bin/mongorestore
+It uses a few example documents in the dump directory, which you can import with a command like
+```
+cd watch-flights
+mongorestore
+```
 
