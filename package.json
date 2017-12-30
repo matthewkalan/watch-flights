@@ -4,6 +4,7 @@
   "description": "",
   "main": "watch-flights.js",
   "scripts": {
+    "start": "nodemon watch-flights.js",
     "test": "start-watching-flights"
   },
   "author": "Matt Kalan",
