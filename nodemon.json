@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "ignore": ["*.test.js", "fixtures/*"],
+    "env": { 
+        "MONGODBURL": "mongodb://localhost:27020,localhost:27018,localhost:27019?replicaSet=watchflights"
+    }
+  }
