@@ -4,11 +4,13 @@
   "description": "",
   "main": "watch-flights.js",
   "scripts": {
+    "start": "nodemon watch-flights.js",
     "test": "start-watching-flights"
   },
   "author": "Matt Kalan",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.0.1"
+    "mongodb": "^3.0.1",
+    "nodemon": "^1.14.6"
   }
 }
